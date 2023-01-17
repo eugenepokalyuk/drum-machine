@@ -1,22 +1,5 @@
-Write code Drum Machine app that is functionally similar to this: https://drum-machine.freecodecamp.rocks/.
+# Барабанная машина
+Этот код является реализацией барабанной машины на ReactJS. Он использует встроенные методы и свойства, чтобы обрабатывать и воспроизводить звуковые файлы.
 
-You can use HTML, JavaScript, CSS, React to complete this project.
-
-Task #1: I should be able to see an outer container with a corresponding id="drum-machine" that contains all other elements.
-Task #2: Within #drum-machine I can see an element with a corresponding id="display".
-Task #3: Within #drum-machine I can see 9 clickable drum pad elements, each with a class name of drum-pad, a unique id that describes the audio clip the drum pad will be set up to trigger, and an inner text that corresponds to one of the following keys on the keyboard: Q, W, E, A, S, D, Z, X, C. The drum pads MUST be in this order.
-Task #4: Within each .drum-pad, there should be an HTML5 audio element which has a src attribute pointing to an audio clip, a class name of clip, and an id corresponding to the inner text of its parent .drum-pad (e.g. id="Q", id="W", id="E" etc.).
-Task #5: When I click on a .drum-pad element, the audio clip contained in its child audio element should be triggered.
-Task #6: When I press the trigger key associated with each .drum-pad, the audio clip contained in its child audio element should be triggered (e.g. pressing the Q key should trigger the drum pad which contains the string Q, pressing the W key should trigger the drum pad which contains the string W, etc.).
-Task #7: When a .drum-pad is triggered, a string describing the associated audio clip is displayed as the inner text of the #display element (each string must be unique).
-
-Here are some audio samples you can use for your drum machine:
-- Heater 1
-- Heater 2
-- Heater 3
-- Heater 4
-- Clap
-- Open-HH
-- Kick-n'-Hat
-- Kick
-- Closed-HH
+# Drum machine
+This code is a ReactJS implementation of the drum machine. It uses built-in methods and properties to process and play audio files.
